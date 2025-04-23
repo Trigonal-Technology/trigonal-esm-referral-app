@@ -6,6 +6,14 @@
   },
   "extensions": [
     {
+      "name": "referral-dashboard-component",
+      "slot": "patient-chart-referral-dashboard-slot",
+      "component": "referralDashboardContent",
+      "meta": {
+        "fullWidth": false
+      }
+    },
+    {
       "name": "referral-summary-dashboard",
       "component": "referralDashboardLink",
       "slot": "patient-chart-dashboard-slot",
